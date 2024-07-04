@@ -19,7 +19,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const handleRedirect = () => {
-        window.location.href = 'https://wa.me/9681189874'
+        window.location.href = 'https://drive.google.com/file/d/1ddo4YqYalk2SWT86rusPXJv2hJHZyGcD/view'
     }
     const [openMenu, setOpenMenu] = useState(false)
     const menuOptions = [
@@ -44,7 +44,7 @@ const Navbar = () => {
             < a href="">Acerca de nosotros</a></Link>
             <Link to='products' smooth={true} duration={500}>
             <a href="">Nuestros productos</a></Link>
-            <button className='primary-button'onClick={handleRedirect}>Contactanos</button>
+            <button className='primary-button'onClick={handleRedirect}>Politica de privacidad</button>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={()=> setOpenMenu(true)}/>

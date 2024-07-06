@@ -46,8 +46,8 @@ const Navbar = () => {
         <div className="navbar-links-container">
             <Link to='about' smooth={true} duration={500}>
             < a href="">Acerca de nosotros</a></Link>
-            <Link to='products' smooth={true} duration={500}>
-            <a href="" onClick={handleRedirectRedes}>Redes Sociales</a></Link>
+            
+            <a href="" onClick={handleRedirectRedes}>Redes Sociales</a>
             <button className='primary-button'onClick={handleRedirect}>Politica de privacidad</button>
         </div>
         <div className="navbar-menu-container">

@@ -21,6 +21,10 @@ const Navbar = () => {
     const handleRedirect = () => {
         window.location.href = 'https://drive.google.com/file/d/1ddo4YqYalk2SWT86rusPXJv2hJHZyGcD/view'
     }
+
+    const handleRedirectRedes = () => {
+        window.location.href = 'https://www.instagram.com/codehive_chis?igsh=MWF6ZTB1bjNobXBuYQ=='
+    }
     const [openMenu, setOpenMenu] = useState(false)
     const menuOptions = [
         {
@@ -43,7 +47,7 @@ const Navbar = () => {
             <Link to='about' smooth={true} duration={500}>
             < a href="">Acerca de nosotros</a></Link>
             <Link to='products' smooth={true} duration={500}>
-            <a href="">Nuestros productos</a></Link>
+            <a href="" onClick={handleRedirectRedes}>Redes Sociales</a></Link>
             <button className='primary-button'onClick={handleRedirect}>Politica de privacidad</button>
         </div>
         <div className="navbar-menu-container">

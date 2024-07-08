@@ -322,7 +322,7 @@ nav {
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 140px;
-    paddingTop: 20
+    margintop : 20
   }
   .navbar-links-container {
     display: none;

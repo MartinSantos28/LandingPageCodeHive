@@ -19,7 +19,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const handleRedirect = () => {
-        window.location.href = 'https://drive.google.com/file/d/1ddo4YqYalk2SWT86rusPXJv2hJHZyGcD/view'
+        window.location.href = 'https://drive.google.com/file/d/1sYA56dHxar4St_xbnTff04q-irhxpttz/view'
     }
 
     const handleRedirectRedes = () => {

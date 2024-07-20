@@ -6,9 +6,9 @@ import {FiArrowRight} from "react-icons/fi"
 
 
 const home = () => {
-    const handleRedirect = () => {
-        window.location.href = 'https://maps.app.goo.gl/Km2Dp8khjijoTu8c6'
-    }
+  //  const handleRedirect = () => {
+    //    window.location.href = 'https://maps.app.goo.gl/Km2Dp8khjijoTu8c6'
+    //}
 
   return (
     <div className='home-container'>
@@ -22,7 +22,7 @@ const home = () => {
                 <p className='primary-text'>
                 Con FastMeals, puedes explorar una amplia variedad de restaurantes y platos, ordenar con facilidad, y recibir tu comida directamente en la puerta de tu casa en tiempo récord.
                 </p>
-                <button className='secondary-button'onClick={handleRedirect}>
+                <button className='secondary-button'>
                     Descarga aqui <FiArrowRight/>
                 </button>
 

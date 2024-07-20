@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../assets/Logo.svg"
+import Logo from "../assest/Logo.svg"
 import {BsCart2} from "react-icons/bs"
 import {HiOutlineBars3} from "react-icons/hi2"
 import{
@@ -19,7 +19,7 @@ import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const handleRedirect = () => {
-        window.location.href = 'https://drive.google.com/file/d/1ddo4YqYalk2SWT86rusPXJv2hJHZyGcD/view'
+        window.location.href = 'https://drive.google.com/file/d/1sYA56dHxar4St_xbnTff04q-irhxpttz/view'
     }
 
     const handleRedirectRedes = () => {

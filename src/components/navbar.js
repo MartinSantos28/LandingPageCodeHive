@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../assest/Logo.svg"
+
 import {BsCart2} from "react-icons/bs"
 import {HiOutlineBars3} from "react-icons/hi2"
 import{
@@ -40,9 +40,7 @@ const Navbar = () => {
   
     return (
     <nav>
-        <div className="nav-logo-container" >
-            <img src={Logo} alt="" />
-        </div>
+        
         <div className="navbar-links-container">
             <Link to='about' smooth={true} duration={500}>
             < a href="">Acerca de nosotros</a></Link>

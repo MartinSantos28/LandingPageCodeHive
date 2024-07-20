@@ -17,12 +17,9 @@ import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
-    const handleRedirect = () => {
-        window.location.href = 'https://drive.google.com/file/d/1sYA56dHxar4St_xbnTff04q-irhxpttz/view'
-    }
-
+    
     const handleRedirectRedes = () => {
-        window.location.href = 'https://www.instagram.com/fast_mealch?igsh=cHhlbzBibnNpanl0'
+        window.location.href = 'https://linktr.ee/fastmeals12'
     }
     const [openMenu, setOpenMenu] = useState(false)
     const menuOptions = [
@@ -46,10 +43,8 @@ const Navbar = () => {
             <Link to='about' smooth={true} duration={500}>
             < a href="">Acerca de nosotros</a></Link>
             
-            <a href="" onClick={handleRedirectRedes}>Redes Sociales</a>
+            <a  onClick={handleRedirectRedes}>Redes Sociales</a>
             
-            <Link to='PrivacyPolicy' smooth={true} duration={500}>
-            < a href="">Politica de privacidad</a></Link>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={()=> setOpenMenu(true)}/>

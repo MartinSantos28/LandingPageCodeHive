@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../assets/logo.png"
+import Logo from "../assets/Logo.png"
 import {BsCart2} from "react-icons/bs"
 import {HiOutlineBars3} from "react-icons/hi2"
 import{

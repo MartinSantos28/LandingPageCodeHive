@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Logo from "../assets/Logo.png"
-import {BsCart2} from "react-icons/bs"
 import {HiOutlineBars3} from "react-icons/hi2"
 import{
     Box,
@@ -23,7 +22,7 @@ const Navbar = () => {
     }
 
     const handleRedirectRedes = () => {
-        window.location.href = 'https://www.instagram.com/codehive_chis?igsh=MWF6ZTB1bjNobXBuYQ=='
+        window.location.href = 'https://www.instagram.com/fast_mealch?igsh=cHhlbzBibnNpanl0'
     }
     const [openMenu, setOpenMenu] = useState(false)
     const menuOptions = [
@@ -48,7 +47,9 @@ const Navbar = () => {
             < a href="">Acerca de nosotros</a></Link>
             
             <a href="" onClick={handleRedirectRedes}>Redes Sociales</a>
-            <button className='primary-button'onClick={handleRedirect}>Politica de privacidad</button>
+            
+            <Link to='PrivacyPolicy' smooth={true} duration={500}>
+            < a href="">Politica de privacidad</a></Link>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={()=> setOpenMenu(true)}/>

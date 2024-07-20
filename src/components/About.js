@@ -4,9 +4,7 @@ import AboutBackgroundImage from "../assets/about-background-image.png"
 import { BsFillPlayCircleFill } from 'react-icons/bs'
 
 const About = () => {
-    const handleRedirect = () => {
-        window.location.href = 'https://wa.me/9681191973'
-    }
+
   return (
     <div className='about-section-container'id='about'>
         <div className="about-background-image-container">

@@ -1,6 +1,7 @@
 import Home from './components/home';
 import './App.css';
 import About from './components/About';
+import PrivacityPolicity from './components/PrivacyPolicy';
 import Work from './components/Work';
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <Home/> 
         <About/>
         <Work/>
+        <PrivacityPolicity/>
     </div>
   );
 }
